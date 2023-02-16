@@ -53,12 +53,12 @@
         display: none;
     }
     iframe{
-        width: 395px;
+        width: 100%;
         height: 395px;
     }
     .gmap{
         flex-direction: column;
-        margin-top: 200px;
+        margin-top: 115px;
     }
     .logo_insta{
         max-width: 30px;
@@ -66,11 +66,19 @@
     .logo_main{
         width: 50px;
     }
+    .next {
+        right: -7%;
+        top: 45%;
+    }
+    .prev {
+        left: -7%;
+        top: 45%;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 424px) {
     .menu__pictures{
-        max-width: 290px;
+        max-width: 328px;
     }
     .container__nav_top{
         display: none;
@@ -92,13 +100,14 @@
     .about__title_block, .menu__title_block, .contact__title_block{
         display: none;
     }
-    iframe{
-        width: 312px;
-        height: 312px;
-    }
+    .gmap
+        iframe{
+            width: 100%;
+            height: 312px;
+            }
     .gmap{
         flex-direction: column;
-        margin-top: 200px;
+        margin-top: 100px;
     }
     .logo_insta{
         max-width: 20px;
@@ -108,5 +117,27 @@
     }
     .about__transiption_title, .menu__transiption_title{
         font-size: 40px;
+    }
+    .prev {
+        left: -11%;
+        top: 45%;
+    }
+    .next {
+        right: -11%;
+        top: 45%;
+    }
+    .about__transiption_title {
+        flex-wrap: nowrap;
+    }
+    br {
+        display: none;
+    }
+    .menu-icon {
+        left: 1px;
+        top: 65px;
+    }
+    .menu-icon__line-left, .menu-icon__line, .menu-icon__line-right {
+        width: 20px;
+        float: none;
     }
 }

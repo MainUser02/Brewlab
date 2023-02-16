@@ -147,4 +147,15 @@
     .container__rel {
         margin: 0 0 16px 12px;
     }
+    body.nav-active .menu-icon__line-left{
+        transform: translateX(1px) rotate(45deg)!important; 
+        margin-bottom: -1px;
+    }
+    body.nav-active .menu-icon__line{
+        background-color: #000;
+        transform: translateX(1px) rotate(-45deg);
+    }
+    body.nav-active .menu-icon__line-right{
+        display: none;
+    }
 }

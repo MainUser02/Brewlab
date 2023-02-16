@@ -99,13 +99,13 @@ body.nav-active{
   .menu-icon{
     &__line{
       background-color: #000;
-      transform: translateX(0px) rotate(-45deg);
+      transform: translateX(2px) rotate(-45deg);
     }
     &__line-left{
-      transform: translateX(1px) rotate(45deg);
+      transform: translateX(3px) rotate(45deg);
     }
     &__line-right{
-      transform: translateX(-2px) rotate(45deg);
+      transform: translateX(0px) rotate(45deg);
     }
   }
   .nav{

@@ -121,10 +121,12 @@
     .prev {
         left: -11%;
         top: 45%;
+        display: none;
     }
     .next {
         right: -11%;
         top: 45%;
+        display: none;
     }
     .about__transiption_title {
         flex-wrap: nowrap;
@@ -133,11 +135,16 @@
         display: none;
     }
     .menu-icon {
-        left: 1px;
+        left: 5px;
         top: 65px;
+        height: 15px;
+        width: 20px;
     }
     .menu-icon__line-left, .menu-icon__line, .menu-icon__line-right {
         width: 20px;
         float: none;
+    }
+    .container__rel {
+        margin: 0 0 16px 12px;
     }
 }
